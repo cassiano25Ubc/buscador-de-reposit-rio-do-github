@@ -1,1 +1,1 @@
-# buscador-de-reposit-rio-do-github
+# buscador-de-repositorio-do-github
