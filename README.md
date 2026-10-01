@@ -1,4 +1,4 @@
-# buscador-de-repositorio-do-github
+
 # 🔍 Buscador de Repositórios GitHub
 
 > Uma aplicação web moderna e responsiva para pesquisar repositórios públicos no GitHub de forma rápida, intuitiva e direta ao ponto, consumindo a API oficial da plataforma.
