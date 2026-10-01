@@ -10,7 +10,7 @@
 
 ## 🔗 Demonstração
 
-* **Acesse o projeto online:** file:///c%3A/js-buscador-reposit%C3%B3rio/assets/index.html
+* **Acesse o arquivo projeto :** file:///c%3A/js-buscador-reposit%C3%B3rio/assets/index.html
 
 ---
 
