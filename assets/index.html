@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f1f5f0">
+  <meta name="description" content="Encontre repositórios populares no GitHub.">
+  <title>Buscador de repositórios GitHub</title>
+  <link rel="stylesheet" href="./style.css">
+  <script src="./script.js" defer></script>
+</head>
+<body>
+  <main class="page-shell">
+    <header class="page-header">
+      <p class="eyebrow"><span class="eyebrow-mark" aria-hidden="true"></span>Explorar repositórios</p>
+      <h1>O que você quer <span>encontrar Issac ?</span></h1>
+      <p class="intro-copy">Pesquise projetos públicos do GitHub e descubra o que a comunidade está criando.</p>
+    </header>
+
+    <section class="search-card" aria-label="Busca de repositórios">
+      <label for="search-input">Termo de busca</label>
+      <div class="search-field-wrap">
+        <span class="search-mark" aria-hidden="true"></span>
+        <input
+          id="search-input"
+          name="q"
+          type="search"
+          placeholder="Ex.: design system, machine learning..."
+          autocomplete="off"
+          enterkeyhint="search"
+          aria-describedby="search-hint"
+        >
+      </div>
+      <p class="search-hint" id="search-hint">Pressione Enter para pesquisar</p>
+    </section>
+
+    <section class="results-section" aria-labelledby="results-heading">
+      <div class="results-heading-row">
+        <h2 id="results-heading">Resultados</h2>
+        <span class="results-count" id="results-count" hidden></span>
+      </div>
+      <div class="results-card" id="results" aria-live="polite" aria-busy="false">
+        <div class="empty-state initial-state" id="initial-state">
+          <span class="state-symbol search-state-symbol" aria-hidden="true"></span>
+          <p>Os repositórios encontrados aparecerão aqui.</p>
+        </div>
+      </div>
+    </section>
+
+    <footer class="page-footer">Dados fornecidos pela API do GitHub</footer>
+  </main>
+</body>
+</html>
